@@ -3,97 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jungle Fashion Sale</title>
+  <title>About Us - MovieVerse</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-  <!-- Header Section -->
-  <header class="jungle-fashion-page-header">
-    <h1>Drama Movies</h1>
-    <p>Experience heart-pounding thrills and intense adventure with our top action movie picks!</p>
+  <!-- Navigation -->
+  <nav class="page-navbar">
+    <div class="nav-brand">
+      
+      <span>JunglePlex</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="home.html">Login</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="sub page.html">Subscribe</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Hero -->
+  <header class="page-header about-header">
+    <div class="header-content">
+      <h1>About JunglePlex</h1>
+      <p>Your ultimate movie recommendation platform</p>
+    </div>
   </header>
 
-  <!-- Product Grid Section -->
-  <section class="jungle-fashion-product-grid">
-    <!-- Product Card 1 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/12 angry men.jpeg" alt="Dress" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">12 Agry Men</h2>
-      <p class="jungle-fashion-product-description">A black-ops mercenary's mission to rescue an Indian crime lord's kidnapped son in Dhaka goes awry, as he faces ruthless enemies and his own past, in a brutal, high-stakes fight for survival.</p>
-      <p class="jungle-fashion-product-price">Rated 9.5/10 <span class="jungle-fashion-old-price">₹2,499</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
+  <!-- About Content -->
+  <section class="about-content">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>Our Story</h2>
+        <p>Founded in 2024, MovieVerse started as a passion project to help movie lovers discover new films. What began as a small community of cinephiles has now evolved into one of the leading movie recommendation platforms on the web.</p>
+        
+        <h2>Our Mission</h2>
+        <p>We aim to provide personalized movie recommendations based on your preferences, ensuring you never run out of great films to watch. Whether you're into blockbusters or indie gems, MovieVerse brings the best of cinema right to your fingertips.</p>
+      </div>
+      <div class="about-image">
+        <!-- Updated image to reflect movie watching -->
+        <iframe 
+    src="./media/videoplayback.mp4" 
+    title="Movie Night Video" 
+    width="560" 
+    height="315" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+      </div>
     </div>
-    <!-- Product Card 2 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/3 idiots.jpg" alt="Jeans" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">3 Idiots</h2>
-      <p class="jungle-fashion-product-description">An intense action-packed thriller that follows a complex father-son relationship, while delving into the world of crime, vengeance, and familial ties. With powerful performances and gripping suspense, this film explores the dark and primal sides of human nature.</p>
-      <p class="jungle-fashion-product-price"> Rated 9.5/10<span class="jungle-fashion-old-price">₹1,999</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
-    </div>
-    <!-- Product Card 3 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/andhadhun.jpg" alt="Andhadhun" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">Chichore</h2>
-      <p class="jungle-fashion-product-description">Batman uncovers a web of corruption while investigating a series of gruesome murders in Gotham City. As he faces the enigmatic Riddler, he grapples with his own quest for justice, redemption, and the dark legacy of his family. Along the way, he forms unlikely alliances with Catwoman and other Gotham residents.
 
-
-
-      </p>
-      <p class="jungle-fashion-product-price">Rated 9.6/10 <span class="jungle-fashion-old-price">₹1,199</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
+    <div class="values-section">
+      <h2>Our Values</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <i data-lucide="heart" class="value-icon"></i>
+          <h3>Passion for Cinema</h3>
+          <p>We are dedicated to bringing the best movies to our users.</p>
+        </div>
+        <div class="value-card">
+          <i data-lucide="shield" class="value-icon"></i>
+          <h3>Trustworthy Recommendations</h3>
+          <p>Our recommendations are based on genuine reviews and trusted ratings.</p>
+        </div>
+        <div class="value-card">
+          <i data-lucide="star" class="value-icon"></i>
+          <h3>Quality Content</h3>
+          <p>We believe in providing high-quality movie suggestions to suit every taste.</p>
+        </div>
+      </div>
     </div>
-    <!-- Product Card 4 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/fall guy.jpeg" alt="Jacket" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">Fall Guy</h2>
-      <p class="jungle-fashion-product-description">A gripping Indian action film about a young man, Rocky, who rises from poverty to take control of the Kolar Gold Fields, battling against corrupt forces in a violent, high-stakes quest for power.</p>
-      <p class="jungle-fashion-product-price">Rated 9.3/10 <span class="jungle-fashion-old-price">₹6,499</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
-    </div>
-    <!-- Product Card 5 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/into the wild.jpeg" alt="Shoes" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">Into the Wild</h2>
-      <p class="jungle-fashion-product-description">A retired hitman, John Wick, seeks vengeance after the death of his beloved dog, unleashing a relentless, action-packed journey through the underworld of assassins.</p>
-      <p class="jungle-fashion-product-price">Rated 9.2/10 <span class="jungle-fashion-old-price">₹3,999</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
-    </div>
-    <!-- Product Card 6 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/MUFASA.jpeg" alt="Handbag" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">MUFASA</h2>
-      <p class="jungle-fashion-product-description">A historical epic set during British colonial India, focusing on the fictionalized stories of two revolutionary freedom fighters, Bheem and Raju, who defy the empire in explosive, larger-than-life action sequences.</p>
-      <p class="jungle-fashion-product-price">Rated 9.6/10 <span class="jungle-fashion-old-price">₹4,499</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
-    </div>
-    <!-- Product Card 7 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/The_Godfather_1972.webp" alt="Hat" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">The Godfather</h2>
-      <p class="jungle-fashion-product-description">A former military police major, Jack Reacher, is dragged into a conspiracy involving murder and corruption, using his unmatched investigative and combat skills to uncover the truth.</p>
-      <p class="jungle-fashion-product-price">Rated 9.3/10 <span class="jungle-fashion-old-price">₹1,299</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlish</button>
-    </div>
-    <!-- Product Card 8 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/ye jawani h deewani .jpg" alt="Sunglasses" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">Ye Jawani Hai Deewani</h2>
-      <p class="jungle-fashion-product-description">A CIA operative, Court Gentry, becomes the target of a global manhunt after discovering dark secrets about his agency, fighting for survival in a world of assassins and covert operations.</p>
-      <p class="jungle-fashion-product-price">Rated 9.4/10 <span class="jungle-fashion-old-price">₹1,799</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
-    </div>
-    <!-- Product Card 9 -->
-    <div class="jungle-fashion-product-card">
-      <img src="./images/DRAMA/znmd.webp" alt="Scarf" class="jungle-fashion-product-image">
-      <h2 class="jungle-fashion-product-title">Zindagi Na Milegi Dobara</h2>
-      <p class="jungle-fashion-product-description">Ethan Hunt, an elite IMF agent, embarks on daring, high-octane missions to stop global threats, navigating espionage, betrayal, and death-defying stunts along the way.
-
-      </p>
-      <p class="jungle-fashion-product-price">Rated 9.3/10 <span class="jungle-fashion-old-price">₹2,199</span></p>
-      <button class="jungle-fashion-buy-button">Add to Watchlist</button>
-    </div>
-    
   </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="home.html">Login</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect With Us</h4>
+        <div class="">
+          <a href="https://www.facebook.com/"><i data-lucide="facebook"></i></a>
+          <a href="https://x.com/?lang=en"><i data-lucide="twitter"></i></a>
+          <a href="https://www.instagram.com/"><i data-lucide="instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 JunglePlex. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
 </html>
